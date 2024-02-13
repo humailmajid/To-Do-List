@@ -1,0 +1,77 @@
+/* todo.css */
+
+/* Body background */
+body {
+   background-color: #ecd3d3; /* Light gray background */
+ }
+ 
+ /* Container styles */
+ .container {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #fff; /* White container background */
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+ }
+ 
+ /* Style for the heading */
+ h2 {
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+ /* Style for the input field */
+ input[type="text"] {
+   width: calc(100% - 40px); /* Full width with padding */
+   margin: 10px auto;
+   padding: 10px;
+   display: block;
+   border: 1px solid #ccc; /* Gray border */
+   border-radius: 5px;
+ }
+ 
+ /* Style for the Add button */
+ button {
+   display: block;
+   margin: 0 auto;
+   padding: 10px 20px;
+   background: linear-gradient(90deg, #ff6ec5b5, #7773f5a2); /* Pink to blue gradient */
+   color: white;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+   cursor: pointer;
+   transition: all 0.3s ease; /* Smooth transition */
+ }
+ 
+ /* Hover effect for the button */
+ button:hover {
+   transform: translateY(-2px); /* Move button slightly up on hover */
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+ }
+ 
+ /* Style for the list container */
+ ul {
+   list-style-type: none; /* Remove numbering (bullet points) */
+   padding: 0;
+ }
+ 
+ /* Style for list items */
+ li {
+   margin: 10px 0;
+   display: flex; /* Use flexbox for alignment */
+   align-items: center; /* Center vertically */
+ }
+ 
+ /* Style for the Done button */
+ .done {
+   background-color: #f44336; /* Red */
+   color: white;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 3px;
+   margin-left: 10px; /* Adjust the distance from the list item text */
+   cursor: pointer;
+ }
+ 
